@@ -1,0 +1,5 @@
+user_input = input("Enter a string: ")
+prefix = input("Enter the prefix to check: ")
+suffix = input("Enter the suffix to check: ")
+print("Starts with prefix:", user_input.startswith(prefix))
+print("Ends with suffix:", user_input.endswith(suffix))
